@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Aman Singh for web development opportunities and collaboration.">
+
+    <title>Contact | Aman Singh</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav aria-label="Main navigation">
+        <a href="index.html" class="logo">Aman Singh</a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section aria-labelledby="contact-title">
+
+        <h1 id="contact-title">Contact Me</h1>
+
+        <form action="#" method="post" aria-label="Contact form">
+
+            <div>
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required
+                    aria-required="true">
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    aria-required="true">
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    aria-required="true"></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Aman Singh.</p>
+</footer>
+
+</body>
+</html>
